@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="57421" started-at="2021-03-18T06:04:36Z" finished-at="2021-03-18T06:05:34Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="57421" started-at="2021-03-18T06:04:36Z" finished-at="2021-03-18T06:05:34Z">
+      <class name="com.testscript.TC01_LoginTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testscript.TC01_LoginTest@14bf9759]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2021-03-18T06:04:36Z" finished-at="2021-03-18T06:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="configure(java.lang.String)[pri:0, instance:com.testscript.TC01_LoginTest@14bf9759]" name="configure" is-config="true" duration-ms="3720" started-at="2021-03-18T06:04:36Z" finished-at="2021-03-18T06:04:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method status="PASS" signature="TestLoginPage(java.lang.String)[pri:0, instance:com.testscript.TC01_LoginTest@14bf9759]" name="TestLoginPage" duration-ms="53222" started-at="2021-03-18T06:04:40Z" finished-at="2021-03-18T06:05:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DEV]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testscript.TC01_LoginTest@14bf9759]" name="teardown" is-config="true" duration-ms="452" started-at="2021-03-18T06:05:33Z" finished-at="2021-03-18T06:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testscript.TC01_LoginTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>

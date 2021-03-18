@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite">
+
+	<test name="ChromeTest">
+
+	  <parameter name="browser" value="Chrome" />
+	  <parameter name="environment" value="DEV" /> 
+
+		<classes>
+
+			<class name="com.testscript.TC01_LoginTest" />
+
+		</classes>
+
+	</test>
+
+<!-- 	<test name="EdgeTest">
+
+		<parameter name="browser" value="edge" />
+		<classes>
+
+			<class name="com.testscript.TC01_LoginTest" />
+
+		</classes>
+
+	</test>
+
+
+	<test name="FirefoxTest">
+
+		<parameter name="browser" value="Firefox" />
+
+		<classes>
+
+			<class name="com.testscript.TC01_LoginTest" />
+
+		</classes>
+
+	</test>
+
+	<test name="InternetExplorerTest">
+
+		<parameter name="browser" value="IE" />
+
+		<classes>
+
+			<class name="com.testscript.TC01_LoginTest" />
+
+		</classes>
+
+	</test> -->
+
+</suite>

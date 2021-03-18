@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="89603" started-at="2021-03-12T18:02:22Z" finished-at="2021-03-12T18:03:51Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="89603" started-at="2021-03-12T18:02:22Z" finished-at="2021-03-12T18:03:51Z">
+      <class name="com.testscript.TC01_LoginTest">
+        <test-method status="PASS" signature="configure(java.lang.String)[pri:0, instance:com.testscript.TC01_LoginTest@7c75222b]" name="configure" is-config="true" duration-ms="7688" started-at="2021-03-12T23:32:22Z" finished-at="2021-03-12T23:32:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method status="PASS" signature="TestLoginPage(java.lang.String)[pri:0, instance:com.testscript.TC01_LoginTest@7c75222b]" name="TestLoginPage" duration-ms="81570" started-at="2021-03-12T23:32:30Z" finished-at="2021-03-12T23:33:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DEV]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testscript.TC01_LoginTest@7c75222b]" name="teardown" is-config="true" duration-ms="307" started-at="2021-03-12T23:33:51Z" finished-at="2021-03-12T23:33:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testscript.TC01_LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
